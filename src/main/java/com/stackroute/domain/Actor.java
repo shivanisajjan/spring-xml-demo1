@@ -1,14 +1,11 @@
 package com.stackroute.domain;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-
 
 public class Actor {
     String name;
     Integer age;
     String gender;
-
     public Actor(String name, Integer age, String gender) {
         this.name = name;
         this.age = age;
