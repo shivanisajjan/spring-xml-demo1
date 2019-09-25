@@ -14,7 +14,6 @@ public class Actor {
         this.age = age;
         this.gender = gender;
     }
-
     public void display(){
         System.out.println("Actor Details");
         System.out.println("Name:"+this.name);
